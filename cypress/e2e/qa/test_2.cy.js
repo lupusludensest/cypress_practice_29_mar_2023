@@ -4,9 +4,9 @@ describe('test_2.cy.js ', () => {
         cy.viewport(1920, 1080);
         cy.get("input[type='text']").type("iphone 12");
         cy.get("input[type='submit']").click();
-        cy.contains("Apple iPhone 12 (256GB, White) [Locked] + Carrier Subscription").click();
-        cy.contains("Sign in to check eligibility").click();
-        cy.contains("Sign in");
+        cy.contains("Apple iPhone 12, 64GB, Green - Fully Unlocked (Renewed)").click();
+        cy.contains("sign in").click();
+        cy.contains("Mobile phone number or email");
 
     })
 })
